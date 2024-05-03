@@ -1,35 +1,47 @@
 {
   "series": {
-    "card_type": "overline",
-    "extra_keys": [
-      "separator",
-      "episode_text_color",
-      "line_position",
-      "line_width"
+    "card_type": "standard",
+    "template_ids": [
+      0
     ],
-    "extra_values": [
-      "\u2022",
-      "#ffffff",
-      "bottom",
-      "9"
-    ],
-    "font_id": 0
+    "auto_split_title": true,
+    "font_vertical_shift": 100,
+    "source_files": []
   },
+  "templates": [
+    {
+      "font_id": 0,
+      "card_type": "overline",
+      "hide_season_text": true,
+      "episode_text_format": "CHAPTER {absolute_number}",
+      "extra_keys": [
+        "omit_gradient",
+        "separator",
+        "episode_text_color",
+        "line_color",
+        "line_position",
+        "line_width"
+      ],
+      "extra_values": [
+        "False",
+        "\u2022",
+        "#ffffff",
+        "#fed814",
+        "bottom",
+        "10"
+      ],
+      "name": "Clarkson's Farm",
+      "filters": []
+    }
+  ],
   "fonts": [
     {
       "name": "AZ Hello",
       "color": "#fed814",
       "file": "AZ Hello.OTF",
       "size": 1.4,
+      "stroke_width": 0.25,
       "title_case": "upper"
     }
-  ],
-  "creator": "TheChrisK",
-  "description": [
-    "Overline card using a matching font called AZ Hello."
-  ],
-  "previews": [
-    "preview0.jpg"
-  ],
-  "created": "2024-04-27T02:30:23"
+  ]
 }
